@@ -1,5 +1,467 @@
-<html>
-<title>店舗詳細画面</title>
-<body>店舗詳細を表示します</body>
-</html>
+<!DOCTYPE html>
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /> 
+	<meta http-equiv="content-language" content="ja" />
+	<meta http-equiv="content-style-type" content="text/css" />
+	<meta http-equiv="content-script-type" content="text/javascript" />
+	<meta http-equiv="Pragma" content="no-cache"/>
+	<meta http-equiv="Cache-Control" content="no-cache"/>
+	<link rel="apple-touch-icon" href="https://clubmichelin.jp/apple-touch-icon.png">
+	<title>【クラブミシュラン限定】～ ワンドリンクサービス ～　シェフのおまかせコース　-ラ クチーナ イタリアーナ ウエキの予約-クラブミシュラン</title>
+	<meta name="description" content="ラ クチーナ イタリアーナ ウエキ｜日本全国のミシュランガイドはもちろん、予約サポートをしてくれるコンシェルジュや、海外のミシュランガイド情報など、外食をより楽しくするサービスが満載です。クラブミシュランは、お客様とお店とをつなぐ、まったく新しいコミュニティです"/>
+	<meta name="keywords" content="ラ クチーナ イタリアーナ ウエキ,レストラン,クラブミシュラン,CLUB MICHELIN,ミシュランガイド,ミシュラン東京,ミシュランガイド東京"/>
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="stylesheet" href="https://clubmichelin.jp/css/reset.css?20160229000001"/>
+	<link rel="stylesheet" href="https://clubmichelin.jp/css/style.css?20160229000001"/>
+	<link rel="stylesheet" href="https://clubmichelin.jp/css/edit.css?20160229000001"/>
+	<link rel="stylesheet" href="https://clubmichelin.jp/css/concie-edit.css?20160229000001" />
+	<link rel="stylesheet" href="https://clubmichelin.jp/css/shop.css?20160229000001"/>
+	<link rel="stylesheet" href="https://clubmichelin.jp/css/restaurant.css?20160229000001"/>
+</head>
 
+<body>
+	<div id="page" class="cat-restaurant has-address shop-09">
+		<div id="page-inner">
+
+<header>
+	<div id="header">
+		<div class="nav-global-main">
+	<div class="nav">
+		<h1><a href="https://clubmichelin.jp/" class="logo-clubmichelin">CLUB MICHELIN</a></h1>
+		<span class="button-menu" data-nav-menu="open"></span>
+					<a class="button-mypage pc-item" href="https://clubmichelin.jp/mypage/"></a>
+			<span class="button-mypage sp-item" data-nav-mypage="open"></span>
+			</div>
+</div>
+
+
+
+<div class="nav-global-category">
+	<div class="nav">
+		<ul class="category">
+			<li class="home"><a href="https://clubmichelin.jp/">HOME</a></li>
+			<li class="restaurant"><a href="https://clubmichelin.jp/search/restaurant/">レストラン</a></li>
+			<li class="ryokan"><a href="https://clubmichelin.jp/search/ryokan/">旅館</a></li>
+			<li class="hotel"><a href="https://clubmichelin.jp/search/hotel/">ホテル</a></li>
+			<li class="hub"><a href="https://clubmichelin.jp/contents/hub/">もっと楽しむ</a></li>
+		</ul>
+		<div class="other">
+			<div class="country-wrapper service-selector">
+				<span data-balloon><a href="https://clubmichelin.jp/selection/" class="phone">セレクション案内</a></span>
+				<div class="balloon-wrapper" data-balloon>
+					<div class="balloon">
+						<a href="https://clubmichelin.jp/concierge" class="concie"><span>予約代行コンシェル</span></a>
+					</div>
+				</div>
+			</div>
+			<div class="country-wrapper">
+				<span class="country japan" data-balloon>日本</span>
+				<div class="balloon-wrapper" data-balloon>
+					<div class="balloon">
+						<a href="https://clubmichelin.jp/global/paris" class="paris">パリ</a>
+						<a href="https://clubmichelin.jp/global/hkm/" class="hkm">香港・マカオ</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+		<div class="nav-global-menu">
+	<div class="nav">
+		<a href="https://clubmichelin.jp/" class="home sp-item">クラブミシュラン HOME</a>
+		<dl class="search">
+			<dt>SEARCH</dt>
+			<dd><a href="https://clubmichelin.jp/search/restaurant/" class="restaurant">レストラン</a></dd>
+			<dd><a href="https://clubmichelin.jp/search/ryokan/" class="ryokan">旅館</a></dd>
+			<dd class="last"><a href="https://clubmichelin.jp/search/hotel/" class="hotel">ホテル</a></dd>
+			<dd class="flag"><a href="https://clubmichelin.jp/global/paris/" class="paris">パリ</a></dd>
+			<dd class="flag"><a href="https://clubmichelin.jp/global/hkm/" class="hkm">香港・マカオ</a></dd>
+		</dl>
+		<dl class="special">
+			<dt>SPECIAL</dt>
+			<dd><a href="https://clubmichelin.jp/contents/curation/">まとめ</a></dd>
+			<dd><a href="https://clubmichelin.jp/contents/special/">特集</a></dd>
+			<dd><a href="https://clubmichelin.jp/event/">イベント</a></dd>
+		</dl>
+		<dl class="service">
+			<dt>SERVICE</dt>
+			<dd><a href="https://clubmichelin.jp/concierge/">予約代行コンシェルジュ</a></dd>
+			<dd><a href="https://clubmichelin.jp/selection/">セレクション案内サービス</a></dd>
+			<dd><a href="https://clubmichelin.jp/waiting/">ウェイティングサービス</a></dd>
+		</dl>
+		<ul class="other">
+			<li><a href="https://clubmichelin.jp/news/">お知らせ</a></li>
+			<li><a href="https://clubmichelin.jp/intro/">クラブミシュランとは</a></li>
+			<li><a href="https://clubmichelin.jp/help/">ヘルプ</a></li>
+							<li class="button"><a href="https://clubmichelin.jp/logout" class="button-logout">LOGOUT</a></li>
+					</ul>
+	</div>
+</div>
+
+	</div>
+</header>
+			<div id="wrapper">
+				<div id="main">
+					<div class="area-shop-header">
+						<div class="mod-title-shop">
+							<div class="inner">
+								<div class="info">
+									イタリア料理								</div>
+								<h1 class="name-jp">ラ クチーナ イタリアーナ ウエキ</h1>
+								<div class="name-en">La Cucina Italiana Ueki</div>
+							</div>
+						</div>
+					</div>
+					<section>
+<div class="area-page-header">
+	<div class="area-icons">
+		<div class="icons-main">
+			<span class="icon-L-rank-bib" title="ビブグルマン:5,000円以下で食事ができる、おすすめレストラン">ビブグルマン:5,000円以下で食事ができる、おすすめレストラン</span>
+			<span class="icon-L-restaurant-black-2" title="快適">快適</span>
+		</div>
+		<div class="icons-other" data-icon-info>
+			<span class="icon-S-lowprice" title="1,500円以下で食事ができる">1,500円以下で食事ができる</span>
+			<span class="icon-S-cash" title="昼のみ現金">昼のみ現金</span>
+			<span class="sub">昼</span>
+			<span class="icon-S-nonsmoking" title="完全禁煙">完全禁煙</span>
+			<span class="icon-S-reserve" title="要予約">要予約</span>
+			<span class="icon-S-sunday" title="日曜も開いている">日曜も開いている</span>
+			<span class="icon-question2" title="?">?</span>
+		</div>
+		<div class="area-icons-more">
+			<div class="more-inner">
+				<table class="table-icons3">
+					<tr>
+						<th><span class="icon-S-rank-bib" title="ビブグルマン:5,000円以下で食事ができる、おすすめレストラン">ビブグルマン:5,000円以下で食事ができる、おすすめレストラン</span></th>
+						<td><p>ビブグルマン:5,000円以下で食事ができる、おすすめレストラン</p></td>
+					</tr>
+					<tr>
+						<th><span class="icon-S-restaurant-black-2" title="快適">快適</span></th>
+						<td><p>快適</p></td>
+					</tr>
+					<tr>
+						<th>
+							<span class="icon-S-lowprice" title="1,500円以下で食事ができる">1,500円以下で食事ができる</span>
+							
+						</th>
+						<td><p>1,500円以下で食事ができる</p></td>
+					</tr>
+					<tr>
+						<th>
+							<span class="icon-S-cash" title="昼のみ現金">昼のみ現金</span>
+							<span class="sub">昼</span>
+							
+						</th>
+						<td><p>昼のみ現金</p></td>
+					</tr>
+					<tr>
+						<th>
+							<span class="icon-S-nonsmoking" title="完全禁煙">完全禁煙</span>
+							
+						</th>
+						<td><p>完全禁煙</p></td>
+					</tr>
+					<tr>
+						<th>
+							<span class="icon-S-reserve" title="要予約">要予約</span>
+							
+						</th>
+						<td><p>要予約</p></td>
+					</tr>
+					<tr>
+						<th>
+							<span class="icon-S-sunday" title="日曜も開いている">日曜も開いている</span>
+							
+						</th>
+						<td><p>日曜も開いている</p></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="area-address">
+		<address class="tel">
+			<span class="number-pc">06-6110-0039</span>
+			<a href="tel:06-6110-0039">06-6110-0039</a>
+		</address>
+	</div>
+
+	<div class="area-navs-tab" id="shop-navs-tab">
+				<p class="by-gurunavi" href="#">以下の情報は「ぐるなび」から提供されています。</p>
+		<div class="mod-navs-tab">
+			<span class="line">
+				<a href="https://clubmichelin.jp/shop/0515035201/" class="tab">店舗トップ</a>
+				<a href="https://clubmichelin.jp/shop/0515035201/plan/" class="tab active">予約プラン</a>
+				<a href="https://clubmichelin.jp/shop/0515035201/menu6/" class="tab">メニュー</a>
+			</span>
+			<span class="line">
+				<a href="https://clubmichelin.jp/shop/0515035201/equipment/seat/" class="tab">席・個室</a>
+				<a href="https://clubmichelin.jp/shop/0515035201/map/" class="tab">地図</a>
+				<span class="tab"></span>
+			</span>
+		</div>
+	</div>
+	<div class="area-coupon">
+	</div>
+</div>
+						<div class="area-shop-body">
+																					<div class="area-course-detail-top">
+								<div class="mod-course-header">
+									<span class="icon min">
+										<span class="icon-club-michelin-limited-night"></span>
+									</span>
+									<p class="title">
+										<a>【クラブミシュラン限定】～&nbsp;ワンドリンクサービス&nbsp;～　シェフのおまかせコース　</a>
+									</p>
+								</div>
+								<div class="area-picture">
+									<div class="picture" data-gallery>
+										<ul class="gallery-view" data-gallery-view>
+											<li><div class="box-thumb size200px"><img src="https://ssl.uds.gnst.jp/rest/img/hkv31npn0000/s_0039.jpg" alt="【クラブミシュラン限定】～&nbsp;ワンドリンクサービス&nbsp;～　シェフのおまかせコース　" /></div><p>【クラブミシュラン限定】～&nbsp;ワンドリンクサービス&nbsp;～　シェフのおまかせコース　</p></li>
+										</ul>
+										<ul class="gallery-thumbs" data-gallery-thumbs>
+											<li><div class="box-thumb size40px"><img src="https://ssl.uds.gnst.jp/rest/img/hkv31npn0000/t_0039.jpg" alt="【クラブミシュラン限定】～&nbsp;ワンドリンクサービス&nbsp;～　シェフのおまかせコース　" /></div></li>
+										</ul>
+									</div>
+									<div class="text">
+										<div class="inner large">
+											<p>季節を感じる旬の食材を取り入れた、シェフのおすすめのおまかせコースです。<br />
+クラブミシュラン会員様限定で、ワンドリンク（ビール&nbsp;or&nbsp;ワイン&nbsp;or&nbsp;ソフトドリンク）をサービスいたします。<br />
+※ワイン・ソフトドリンクに関しては、こちらで指定させていただきます。</p>
+										</div>
+										<div class="area-link">
+											<p>
+												<small>おすすめシーン：友人・知人と、女子会、夫婦二人で</small>
+											</p>
+											<a href="#web-reserve" class="link-arrow-anchor" data-scroll-to="#web-reserve">ネット予約はこちら</a>
+										</div>
+									</div>
+								</div>
+								<div class="mod-infolist">
+									<dl class="odd">
+										<dt>料金</dt>
+										<dd>7,000円（税抜） /1名様</dd>
+									</dl>
+									<dl class="even"><dt>料理品数</dt><dd>全7品</dd></dl>
+									<dl class="odd"><dt>人数</dt><dd>1名様～14名様</dd></dl>
+									<dl class="even"><dt>飲み放題</dt><dd>--</dd></dl>
+									<dl class="odd"><dt>食べ放題</dt><dd>--</dd></dl>
+									<dl class="even"><dt>予約期限</dt><dd>2日前の17:00までにご予約ください</dd></dl>
+									<dl class="odd"><dt>来店時間</dt><dd>夜（18:00～21:00）</dd></dl>
+								</div>
+								<div class="area-space">
+									<p class="title">
+										<strong>コース内容（全7品）</strong>
+									</p>
+									<p><br /></p>
+									<p>◆&nbsp;こちらのコース内容はシェフおまかせとなります。</p>
+									<p><br /></p>
+									<p>※当日の仕入れ状況により、メニューが異なります。</p>
+								</div>
+								<div class="area-space">
+									<p><br /></p>
+									<p>【注意事項】</p>
+									<p>※写真はイメージです。</p>
+								</div>
+								<div class="area-space">
+									<p class="title"><strong>キャンセルについて</strong></p>
+									<p>
+										<em>規定</em><br />
+										当日のキャンセルはご予約合計金額の100％を頂戴しております。<br />
+										キャンセル料:100％									</p>
+									<p>
+										<em>備考</em><br />
+										前日のキャンセルはご予約合計金額の80％を頂戴しております。									</p>
+								</div>
+							</div>
+					</section>
+					<div class="area-navs-shop-bottom">
+						<a href="https://clubmichelin.jp/search/restaurant/" class="link-arrow-back">検索に戻る</a>
+					</div>
+				</div>
+				<div class="area-pagetop"><div class="inner"><a class="button-pagetop" data-scroll-to="0">top</a></div></div>
+			</div><footer>
+	<div id="footer">
+		<div class="footer-nav">
+			<a href="https://clubmichelin.jp/">ホーム</a>
+			<a href="https://clubmichelin.jp/mypage/">Myページ</a>
+			<a href="https://clubmichelin.jp/help/">ヘルプ</a>
+			<a href="https://clubmichelin.jp/user_terms/">利用規約</a>
+		</div>
+		<div class="footer-logo">
+			<p class="michelin"><a class="logo-michelin" href="http://www.michelin.co.jp/" target="_blank">MICHELIN</a></p>
+			<p class="copyright"><small>&copy;MICHELIN</small><small>&copy;GURUNAVI</small></p>
+			<p class="gurunavi"><a class="logo-gurunavi" href="http://www.gnavi.co.jp/" target="_blank">ぐるなび</a></p>
+		</div>
+	</div></footer>
+
+		</div>
+<div class="nav-global-mypage">
+	<nav>
+		<ul class="nav">
+			<li class="mypage-01"><a href="https://clubmichelin.jp/mypage/">Myページトップ</a></li>
+			<li class="mypage-12"><a href="https://clubmichelin.jp/mypage/info/">会員情報</a></li>
+			<li class="mypage-31"><a href="https://clubmichelin.jp/mypage/plan/">契約プラン</a></li>
+			<li class="mypage-32"><a href="https://clubmichelin.jp/mypage/waiting/">ウェイティングサービス</a></li>
+			<li class="mypage-10"><a href="https://clubmichelin.jp/mypage/fav/">行った・行きたい</a></li>
+			<li class="mypage-08"><a href="https://clubmichelin.jp/mypage/history/">閲覧履歴</a></li>
+			<li><a href="https://plan.gnavi.co.jp/plan-reserve/plan/user/reservation_history/" target="history">予約履歴</a></li>
+		</ul>
+	</nav>
+</div>
+	</div>		<form name="reserve" action="https://clubmichelin.jp/shop/0515035201/plan/input/form/" method="post">
+		<input id="post-ymd" type="hidden" value="" name="ymd"/>
+		<input id="post-pln" type="hidden" value="" name="plan_id"/>
+		<input id="post-tbl" type="hidden" value="" name="table_id"/>
+		<input id="post-fid" type="hidden" value="" name="fid"/>
+	</form>
+
+<script type="text/javascript">
+var $facility_id="0515035201";var $url_calendar="https://clubmichelin.jp/shop/0515035201/plan/3/calendar/";var $url_reserve="https://clubmichelin.jp/shop/0515035201/plan/input/form/";</script>
+
+<script type="text/ecmascript" src="https://clubmichelin.jp/js/libs.js?20160229000001" charset="utf-8"></script>
+<script type="text/ecmascript" src="https://clubmichelin.jp/js/settings.js?20160229000001" charset="utf-8"></script>
+<script type="text/ecmascript" src="https://clubmichelin.jp/js/modules.js?20160229000001" charset="utf-8"></script>
+<script type="text/ecmascript" src="https://clubmichelin.jp/js/cook.js?20160229000001" charset="utf-8"></script>
+<script type="text/ecmascript" src="https://clubmichelin.jp/js/main.js?20160229000001" charset="utf-8"></script>
+<script type="text/ecmascript" src="https://clubmichelin.jp/js/edit.js?20160229000001" charset="utf-8"></script>
+
+	<div id="modal"></div>
+<script>
+    ;
+    (function ($) {
+                $(document).on('mouseenter', "#header .nav-global-menu a.paris, #header .nav-global-category .other .balloon a.paris , #header .nav-global-menu a.hkm, #header .nav-global-category .other .balloon a.hkm , .nav-global-mypage nav ul li:not(.mypage-12) a , .nav-mypage li + li.mypage-31 a , a[href^='/mypage/concierge/newly'], a[href^='/mypage/waiting'] , .button-twin.ver li.call .button-text , a[href^='/concierge'] , .button-check,.button-visited,.button-memo , .button-vacant , #tel_request , a[href^='/mypage/plan'] , .calendar .reserve td a", function () {
+            for (var key in $(this).data()) {
+                key = key.replace(/([A-Z])/, '-$1').toLowerCase();
+                $(this).removeAttr('data-' + key);
+            }
+            $(this).off();
+        });
+
+        $(document).on('click', "#header .nav-global-menu a.paris, #header .nav-global-category .other .balloon a.paris , #header .nav-global-menu a.hkm, #header .nav-global-category .other .balloon a.hkm , .nav-global-mypage nav ul li:not(.mypage-12) a , .nav-mypage li + li.mypage-31 a , a[href^='/mypage/concierge/newly'], a[href^='/mypage/waiting'] , .button-twin.ver li.call .button-text , a[href^='/concierge'] , .button-check,.button-visited,.button-memo , .button-vacant , #tel_request , a[href^='/mypage/plan'] , .calendar .reserve td a", function () {
+            _funCreate("クラブミシュラン会員登録でご利用できます", "ここから先のご利用は会員限定となります。<br/>クラブミシュランにご登録の上、<br/>ご利用ください。", "");
+            return false;
+        });
+
+        
+
+        var _funCreate = (function (title, message, image_url) {
+            if ($('#page #modal')[0]) {
+                $('body').prepend($('#page #modal'));
+            }
+
+            $("#modal .modal_gurunavitrial").remove();
+
+            $('#modal').addClass("modal_gurunavitrial");
+
+            if (!$('.modal-bg')[0]) {
+                $('#modal').append('<div class="modal-bg modal_gurunavitrial" data-modal-close ></div>');
+            }
+
+            $('#modal').append(
+                '<div class="modal-content modal_gurunavitrial">' +
+                '<div class="inner">' +
+//				'<p class="title"></p>'+
+                '<img src=""/>' +
+                '<p class="body"></p>' +
+                '<ul>' +
+                '<li><a href="" class="button-text link"></a></li>' +
+                '</ul>' +
+                '<p class="foot">枠外クリックで元の画面に戻ります </p>' +
+                '</div>' +
+                '<span class="button-close" data-modal-close >x</span>' +
+                '</div>'
+            );
+//			$('.modal-content.modal_gurunavitrial .title').append( title);
+
+            if (image_url !== "") {
+                $('.modal-content.modal_gurunavitrial img').attr("src", image_url);
+            }
+
+            $('.modal-content.modal_gurunavitrial .body').append(message);
+
+            $('.modal-content.modal_gurunavitrial .button-text.link').append("会員登録する");
+            $('.modal-content.modal_gurunavitrial .button-text.link').attr("href", "/regist");
+
+            var img = $('.modal-content.modal_gurunavitrial img');
+
+            if (50 < img.get(0).width) {
+                _fnOpen();
+            } else {
+                if (!img.attr("src")) {
+                    img.remove();
+                    _fnOpen();
+                } else {
+                    img.on('load', function () {
+                        _fnOpen();
+                    });
+                }
+            }
+        });
+
+
+        var _fnOpen = (function () {
+            var modal_elem = $('.modal-content.modal_gurunavitrial');
+            $(document).trigger("modal.open", "modal_gurunavitrial");
+            var position_top = ($(window).scrollTop() + $(window).height() / 2) - (modal_elem.outerHeight() / 2);
+            if (position_top < 0) {
+                position_top = 0;
+            }
+
+            if (modal_elem.outerHeight() > $(window).height()) {
+                position_top = $(window).scrollTop() + 10;
+                modal_elem.css('margin-bottom', 10);
+            }
+            modal_elem.css('top', position_top);
+            $('#modal').css('height', $('#page').outerHeight());
+
+            var onResizeHandler = function () {
+                if (!$('#modal').hasClass("opened")) {
+                    return;
+                }
+                return modal_elem.css('top', position_top);
+            };
+
+            $(window).off("resize", onResizeHandler).on("resize", onResizeHandler);
+
+        });
+
+    }(jQuery));
+
+    function getUrlVars() {
+        var vars = [], hash;
+        var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+        for (var i = 0; i < hashes.length; i++) {
+            hash = hashes[i].split('=');
+            vars.push(hash[0]);
+            vars[hash[0]] = hash[1];
+        }
+        return vars;
+    }
+</script>
+
+<link rel="stylesheet" href="https://clubmichelin.jp/css/gnavitrial.css?'..'"/>
+
+<script type="text/javascript">
+var is_preview = false;
+</script>
+<script type="text/javascript" src="https://clubmichelin.jp/js/shop.js?20160229000001"></script>
+<script type="text/javascript" src="https://clubmichelin.jp/js/jquery.flickable.js?20160229000001"></script>
+<div style="display:none;height:0;position:relative;visibility:hidden;width:0;">
+		<script>
+		var sc_cml_data = {
+			param1 : "",
+			param2 : ""
+		};
+	</script>
+		<script src="//x.gnst.jp/s.js"></script>
+	<script>('localhost' !== location.hostname) && document.write(unescape("%3Cscript src='//site.gnavi.co.jp/analysis/sc_" + getScSubdom() + ".js'%3E%3C/script%3E"));</script>
+</div>
+
+
+</body>
+</html>
