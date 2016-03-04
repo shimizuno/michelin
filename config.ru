@@ -1,2 +1,2 @@
-require './hello'
+require './public/index.html'
 run Sinatra::Application
