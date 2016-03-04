@@ -2,11 +2,25 @@
 
 <head>
 <title>ミシュランレストランガイド検索画面</title>
+<img src="ミシュラン2.jpg"　alt="写真" width="50%" height="50%">
+
 </head>
 
 <body>
-<p>ミシュランレストランガイド検索画面</p>
-<p>地域<br>
+<p><font size="7">ミシュランレストランガイド検索画面</font></p>
+
+<p>■星<br>
+<select name="星">
+<option value="★★★">
+★★★</option>
+<option value="★★">
+★★</option>
+<option value="★">
+★</option>
+</select>
+</p>
+
+<p>■地域<br>
 <select name="地域">
 <option value="東京">
 東京</option>
@@ -15,7 +29,7 @@
 </select>
 </p>
 
-<p>カテゴリ<br>
+<p>■カテゴリ<br>
 <select name="カテゴリ">
 <option value="和食">
 和食</option>
@@ -24,16 +38,21 @@
 </select>
 </p>
 
-<p>宗教<br>
+<p>■宗教<br>
 <select name="宗教">
 <option value="イスラム教　シーア派">
 イスラム教　シーア派</option>
 <option value="ヒンズー教">
 ヒンズー教</option>
-</select>
+</select><br>
+
+    <td align="right"><b> 食べられない食材：</b></td>
+    <td><input type="text" name="name" size="100" maxlength="90"></td>
+
+
 </p>
 
-<p>国籍<br>
+<p>■国籍<br>
 <select name="国籍">
 <option value="カナダ">
 カナダ</option>
@@ -42,7 +61,7 @@
 </select>
 </p>
 
-<p>条件<br>
+<p>■条件<br>
 <input type="checkbox" name="riyu" value="1" checked="checked">個室あり
 <input type="checkbox" name="riyu" value="2">食べ放題メニュー
 <input type="checkbox" name="riyu" value="3">飲み放題メニュー
@@ -64,7 +83,7 @@
 <br>
 
 <FORM>
-<input type="button" value="検索" onClick="location.href='http://google.com'"><br>
+<input type="button" value="検索" onClick="location.href='Ichiran.html'"><br>
 <BUTTON type="reset">リセット</BUTTON><BR>
 </FORM>
 
